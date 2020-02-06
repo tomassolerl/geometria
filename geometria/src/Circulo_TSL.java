@@ -6,6 +6,9 @@ public class Circulo_TSL extends FiguraGeometrica_TSL {
 	
 	public Circulo_TSL(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0) {
+			r=r*-1;
+		}
 		radio = r;
 	}
 
