@@ -1,9 +1,9 @@
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_TSL {
 
 	protected String tipoFigura;
 
-	public FiguraGeometrica(String tipoFigura) {
+	public FiguraGeometrica_TSL(String tipoFigura) {
 		super();
 		this.tipoFigura = tipoFigura;
 	}
@@ -21,3 +21,4 @@ public abstract class FiguraGeometrica {
 	}
 
 }
+//Versión inicial
